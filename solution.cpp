@@ -1,3 +1,7 @@
+#include <vector>
+#include <algorithm>
+
+using namespace std;
 
 /*
 Problem: Maximum Profit with At Most K Transactions
@@ -10,11 +14,6 @@ Approach:
 Time Complexity: O(n * k)
 Space Complexity: O(k)
 */
-
-#include <vector>
-#include <algorithm>
-
-using namespace std;
 
 class Solution {
 public:
